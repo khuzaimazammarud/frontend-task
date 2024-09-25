@@ -30,6 +30,7 @@ body {
   background-color: var(--color-background);
   font-family: var(--font-family);
   color: var(--color-white);
+  padding: 10px;
 }
 
 .header {
@@ -92,10 +93,11 @@ body {
   flex-direction: column;
   transform: translateY(-140%);
   transition: all 0.3s;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   height: -moz-max-content;
   height: max-content;
+  z-index: 1;
 }
 .header .mob-menu .links-menu {
   display: flex;

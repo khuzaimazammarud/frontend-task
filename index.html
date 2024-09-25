@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Front end task</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img src="img/Icon.png" width="30" height="30" />
+        <div class="links">
+          <a href="#">Pricing</a>
+          <a href="#">Updates</a>
+          <a href="#">Story</a>
+          <a href="#">Download</a>
+          <a href="#">Developers</a>
+        </div>
+        <button class="navbar-btn">Sign in</button>
+        <button class="navbar-mob-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <div class="mob-menu">
+        <div class="links-menu">
+          <a href="#">Pricing</a>
+          <a href="#">Updates</a>
+          <a href="#">Story</a>
+          <a href="#">Download</a>
+          <a href="#">Developers</a>
+        </div>
+        <button class="navbar-btn-menu">Sign in</button>
+      </div>
+    </header>
+
+    <div class="hero-container">
+      <div class="announcement">
+        <div href="#" class="announcement-btn"><p>Announcing Early Adopters Plan</p> 
+        
+        <img src="img/arrow.png" alt="arrow" width="20px"/>
+    </div>
+      </div>
+      <div class="hero-content">
+        <p class="heading">Run your business smarter.</p>
+        <p class="para">
+          Midday provides you with greater insight into your business and
+          automates the boring tasks, allowing you to focus on what you love to
+          do instead.
+        </p>
+        <div class="button-group">
+          <a href="#" class="btn talk">Talk to us</a>
+          <a href="#" class="btn access">Get Early Access</a>
+        </div>
+        <p class="no-credit">No credit card required.</p>
+      </div>
+
+      <div class="hero-img">
+        <img class="blur1" src="img/blur.png" alt="hero image" />
+        <img class="blur2" src="img/blur.png" alt="hero image" />
+        <img
+          src="img/img-2.png"
+          alt="hero image"
+          style="width: 100%; height: 100%; max-width: 1030px"
+        />
+      </div>
+
+      <div class="social-container">
+        <div
+          style="border: 1px solid #707070; border-radius: 16px; padding: 5px"
+        >
+          <div class="social-icons">
+            <img
+              src="img/social-1.png"
+              alt="instagram"
+              style="width: 40px; height: 40px"
+            />
+            <img
+              src="img/socail-2.png"
+              alt="facebook"
+              style="width: 40px; height: 40px"
+            />
+            <img
+              src="img/social-3.png"
+              alt="facebook"
+              style="width: 40px; height: 40px"
+            />
+            <img
+              src="img/social-4.png"
+              alt="facebook"
+              style="width: 40px; height: 40px"
+            />
+            <img
+              src="img/social-5.png"
+              alt="facebook"
+              style="width: 40px; height: 40px"
+            />
+            <img
+              src="img/social-6.png"
+              alt="facebook"
+              style="width: 40px; height: 40px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-content" style="margin-top: 6rem;">
+        <p class="heading" style="font-size: 96px; margin: 2.5rem 0;">
+          Save hours.
+        </p>
+        <p class="para" style="max-width: 778px;">
+          From automated receipt-to-transaction mapping to conversing with your
+          financials and consolidating all your files, Midday not only assists
+          you with your most tiresome business tasks but also enhances your
+          ability to gain valuable business insights.
+        </p>
+      </div>
+    </div>
+
+    <section class="bottom-section">
+        <div class="content">
+          <img src="/img/back.png"  style="max-width: 650px; max-height: 330px; width: 100%; height: 100%;"  />
+          <div class="content-text">
+            <h4>Financial overview</h4>
+            <p>
+              Bring your own bank. We connect to over 20 000+ banks in 33
+              countries across US, Canada, UK and Europe. Keep tabs on your
+              expenses and income, and gain a clearer picture of your business's
+              financial track record and current situation.
+            </p>
+            <div class="list">
+              <svg
+                width="19"
+                height="14"
+                viewBox="0 0 19 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_1056)">
+                  <path
+                    d="M7.15166 13.5001L1.45166 7.8001L2.87666 6.3751L7.15166 10.6501L16.3267 1.4751L17.7517 2.9001L7.15166 13.5001Z"
+                    fill="#FAFAFA"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_1056">
+                    <rect
+                      width="18"
+                      height="13"
+                      fill="white"
+                      transform="translate(0.601562 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span>Share financial reports</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <script>
+      document
+        .querySelector(".navbar-mob-icon")
+        .addEventListener("click", () => {
+          document.querySelector(".mob-menu").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
